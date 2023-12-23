@@ -99,4 +99,27 @@ I've write them out the same format. And a bit is also the either 1 or 0.
 
 Is `bit` the same as `bool`? You should think on it. Give me your answer.
 
-## meta meanings ...(continue)
+To explore the scope, i would define some basic concept in common coding languge to give you an insight on meta more.
+
+```nodi
+meta
+0 1 
+bool: [0 1]
+bit: [0 1]
+byte: [bit]^8
+u8: byte
+u16: [u8]^2
+u32: [u16]^2
+f8: byte
+f16: [f8]^2 
+f32: [f8]^4 
+digit: [0 1 2 .. 9]
+letter: 
+    uppercase: [A B C D ..]
+    lowercase: [a b c d ..]
+symbol: [. , / * ..]
+
+identifier: [<letter>_][<letter><digit>_]*
+..
+```
+notice the above definition is just a certain aspect of the meta or node, not all its  meaning. 
