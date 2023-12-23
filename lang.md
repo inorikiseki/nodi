@@ -32,5 +32,23 @@ Context is based on all the surroundings of that node.
 Context is comprised of many other Context.   
 Due to complexity and distance from that node, the context the node in and what Context captures is a complex topic. We should not state it at the early stage and just go on and more infomation will show off.
 
-...(continue)
+## Meta Concept
+
+Another yet most primitive and significant concept for nodi is the concept `meta`, which nodi won't exist without.  
+What is meta? 
+
+To state what `meta` is an difficult concept as well. Because, `meta` can't be fully explained by words in nature.
+
+`meta` is any, all the concepts in the world(or universe ...). 
+
+That seems ridiculous, but trust me, that's what `meta` really is.  
+
+Why am I saying that `meta` is not descipable in nature?  Because, meta is beyond all the concept there are.
+It's beyond yes-or-no, exist-or-not-exist and so on.  
+
+bool: [0 1] 
+what bool is to [0 1]? The meta is what bool is to [0 1] and beyond.  If the meta concept for [0 1] is bool, the 
+meta for all the other including meta itself is meta. 
+
+I know it's obscure but I couldn't state it better for now.  
 
