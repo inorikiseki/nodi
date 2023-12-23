@@ -52,3 +52,51 @@ meta for all the other including meta itself is meta.
 
 I know it's obscure but I couldn't state it better for now.  
 
+[answers about context and meta by ai assitant](./answers/context_meta.md)
+
+## Node or Meta
+
+To call the primitives in nodi a node or a meta(Yes, a meta as if an object, not a adj.) is based on the significance you want to emphasize. Node is more on Structure, on meta is more on concept. Nevertheless, they are both capable of calling the primitives(The basic unit in nodi). Also, you could raise others you like.
+
+Further interpretation will progressively added about `meta` or `node` the somehow same thing.
+
+## The inner of Meta
+
+It's too abstract for stating meta in such a way. Let's break it apart and look into it.
+
+Meta has inner structure. What is it inner structure. You won't notice a meta's inner structure unless you step into it. The inner structure of a meta is part of the meaning of it. 
+
+I would like to raise some basic instances or examples for this.  
+
+meta
+0 1
+bool: [0 1]
+
+First, from meta it borns 0 1 the most primitive concept after meta. With `0-1` pair we can define any other thingsthat's an inner structure of meta. `0-1` is also called a **diffum**(the basic unit for differetiaion). 
+
+The `bool` is a meta, which is related to 0 and 1. But what's the relation.  
+
+You may know the relation based on the name 'bool' but what if I've write it as 
+
+xxxx: [0 1] 
+
+The relation of the bool is that it can be either 0 or 1 as you know. But what is 'xxxx'? 
+You may not tell the latter at first sight if i've put it out first. 
+
+The relation is hidden. It's hidden until spotted out. But discussion on this topic is not now.
+
+But you need to think which tells you the relation of bool and 0 and 1. Does it to do with '[]' ':' or something as 'bool' ?
+
+Back on this topic.  Bool is a meta which has the inner structure. Actually it's not important as i say inner or not.
+
+Well, another meta is also has something to do with 0 and 1, but has a different relation.
+
+bit: [0 1]
+
+the bit is also a meta that has to do with 0 and 1 but with different relation.
+
+I've write them out the same format. And a bit is also the either 1 or 0.  
+
+Is `bit` the same as `bool`? You should think on it. Give me your answer.
+
+## meta meanings ...(continue)
