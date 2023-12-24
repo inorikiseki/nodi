@@ -27,3 +27,29 @@ I just need a node to carry infomations.
 A directoy carries infomations, files carries informations, so why
 we distinguished them in the past? 
 We need a different strategy for now.  
+
+
+## Essence
+
+So, what is exactly the delimma we are facing? 
+We can easlily break a concept into two divergence. 
+
+For me and nodic, the concept is a meta.
+
+we break a meta into its divergences. but we are usually do not have 
+a effective method to treat it back when we need. 
+
+can't directory just be viewed as a special file that contain only other 
+file or directoy.
+
+When we break it down into file and directory, i cant easily restore it back.
+
+i refer it to as [file directory]. so we can't deal with it in a univerally 
+perspective. We are leading ourself into the corner of the meta space.
+
+The more divergences we made, the more complexity we introduce. 
+
+And that meta matters, meta always provide a way for us to treat divergences back
+to its primitive concept(meta). 
+
+
