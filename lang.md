@@ -123,3 +123,47 @@ identifier: [<letter>_][<letter><digit>_]*
 ..
 ```
 notice the above definition is just a certain aspect of the meta or node, not all its  meaning. 
+
+## Form-Free
+
+There is not a formal or verbal or lexing bound for a concept. That means the relation of metas are expressed in various ways and the meta itself is taking role as which meta is not bound to the simple or a fixed literal form.
+
+All the surroundings are just a hint for interpreting the meaning of it, but not a must unless you define it to bea fixed rule meta. (I say rule meta, because every thing is just meta).
+
+## Type or value?
+
+What is a type or a value? A class or a instance? Or whatever these things?
+Nodi, don't introduce these concept at a primitive level, although it's not excluded as it's a super set.
+
+There only two state of a meta, which is stated by a determintor also called as 'detum'.
+
+```nodi
+detum: determined | undetermined
+//also write as detum: [determined undetermined]
+// like bool and bit. 
+
+```
+And there is a linkage or relation between diffum and detum. 
+because the most primitive one is diffum. 
+You could think everything else is derived from diffum especially more related with these binary set.
+like `detum` and determined is derived from 1 and undetermined is derived from 0.
+also, this apply to bool: true | false.
+
+a meta is either determined or undetermined. 
+0, 1 is a determined meta. because there wont generate divergence from 0 or 1.
+bool is a undetermined meta. bool is maybe 0 or 1.
+
+For a detum in undetermined state, it's similar to a type. For a detum in determined state it's like a value.
+
+other undetermined metas are like `byte` `u8`. 
+a determined meta is "hello"
+
+Notice, when we say about detum or meta, we are always talking on its single aspect not all the case from deferent context. 
+
+ for a meta hello, world!
+if we treat it as a string literal, it's a detum(determined) in most context(context with string literal defined). 
+but we treat it as a centence, it may be not the case. We dont know what exactly it means unless defined.
+
+a centence is the concept we'll cover later.
+
+(continue...)
