@@ -166,4 +166,158 @@ but we treat it as a centence, it may be not the case. We dont know what exactly
 
 a centence is the concept we'll cover later.
 
-(continue...)
+### examples on detum
+
+```nodi
+// example 0
+bool: [0 1]
+echo 0
+echo 1
+echo bool
+```
+
+echo 0, echo 1 will just print 0 and 1 respectively. 
+but how about echo bool?
+It depends.  
+In a strict and standard context mode, this is vague.  
+Nodi wont run a program(undetermined detum, a program is also a meta, a detum is undetermined if it contains undetermined inner detum) in standard mode.  
+but in some mode(you defined) as a interactive defining mode, nodi will ask you to give a specific value of bool there.
+in a enumerate mode or under a clear enumerating context, nodi will just print all its value as [0 1]
+in a concept based context it will print out the 'bool: [0 1]' itself.
+
+nodi wont to precheck if a detum is determined or undetermined unless it needs to do so. It's like the lazy evaluation. but this is more general in nodi.
+
+everything in nodi, is lazy. We call this 'postverificaion' or 'postinspect'. It's a univerally method in nodi, also preferred.
+
+It's related to the quantum mechanics. When you inspect or observe a detum and then it'll collapse into a state based on the context, if it's vague, you should make it clear.
+
+## Literal units
+
+Nodi is not comprised of the rigid statement of variable or functions. It's more natural. 
+
+a nodi program is more like a natrual langugage or even just a natural languge text in nature, but equipped specific strutures for specific purpose for better descriptions. 
+
+The common concept of language are able to exerted on nodi. like symbol, letter, word, phrase, sentence. 
+the meta hierarchy is somehow like a file system. 
+
+```
+meta
+    Hello, world
+        echo "Hello, world!"
+```
+
+`meta` is the root directory, there are 3 level. 
+level 0: meta
+level 1: Hello, world
+level 2: echo "Hello, world!"
+
+the basic terminology in data structure for tree or graph is used here.
+
+the sub level is for the description of the leading phrase(here is Hello, world)
+
+to call Hello, world we can do this. 
+
+`Hello, world! `
+
+To put a teminator like the period, or exclamination point or question mark and so on, we turn a phrase to a sentence.  A sentence is a basic execution unit. nodi will try to collapse Hello, world into a determined detum.
+it will collapse the whole sentence first and then the Hello and world phrase if there are definition for them seperately in some context. 
+it collapse into echo "Hello, world!" which is determied in standard context. 
+
+then we can see 
+> Hello, world!
+
+## Path and addressing
+
+since nodi has a complex hierarchy which is based on a tree like a file system but not just a tree, its actually ahyperdimensional gragh, because the linkage in it is very complex. 
+
+Path is for specify which meta we are refering to. 
+
+We use various ways to do so. the standard way is like a url and a mail address.
+
+```nodi
+root
+    module
+        hello
+        world
+    another module
+        hello
+    hello
+    caller
+        <here we want to access 'hello'> 
+```
+
+When we refer to hello under caller path, which we are refering to just with 'hello'?
+
+in a strict mode, you try to be explicit, we need to give out the clear reference.
+
+we can do it this way.
+
+```nodi
+hello@.. // the upper level hello in level 2 
+hello@../module/hello
+hello@../'another module'/hello
+hello@../another-module/hello
+
+```
+
+the common address way is ok in nodi.
+
+including these.
+
+meta@root/sub 
+meta@upper.further.root
+meta@http://www.google.com
+meta@package::module
+
+
+everything in nodi is the same and addressable. A file or a phrase is plain the same as a node.
+
+## Args or Initialization. Func or Class?
+
+in the primitive viewport there is no func or class.
+
+the are only some node take some input and output some input.
+
+```nodi
+add x to y
+    x, y : Number
+    => y = x + y
+// to call add x to y
+y = 10
+add x(5) to y(y)
+echo y
+```
+output:
+> 15
+
+You could introduce placeholder to a more natrual usage.
+
+```nodi
+add _x to _y
+    x, y : Number
+    => y = x + y@'previous
+y = 10
+add 5 to y
+echo y
+```
+
+this time the _x and _y is placeholder no need for write it out.
+put a _ right front of a symbol it becames a placeholder.
+
+more often, you write it as add_x to_y . As if we are tell add and to need a objective.
+
+What is 'previous previous is a specifier marked with '. 
+specifier has its own addressing space. usually more flat than the main space.  
+You can create your space as well. 
+
+a previous specifier tell nodi, y@'previous is the previous value of y explicitly.
+
+And we can see, nodi is not just only capable of addressing in 'space' but also in 'time'.
+
+Actually, 'space' or 'time' is call two different `meta space`. 
+
+we'll cover 'meta space' latter. everything is addressable in nodi, you should introduce different space or clear path to address it properly.
+
+Nodi has a highly sense of understand it can know which you are referring to most of the case. But being explicit is requried in the 'explict addressing' dialect.
+
+
